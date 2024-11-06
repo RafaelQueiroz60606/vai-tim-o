@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8a8383;
+    background-image: url("estadio do corinthians.webp");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplique o blur apenas na imagem de fundo, não no conteúdo */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("estadio do corinthians.webp");
+    background-size: cover;
+    filter: blur(3px); /* Aplica o desfoque à imagem */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+/* Container de login */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; /* Garante que a caixa de login fique acima da imagem */
+}
+
+/* Estilos do título */
+.titulo {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos dos rótulos (labels) */
+.label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+/* Estilos dos inputs */
+.input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos do botão */
+.botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo do botão ao passar o mouse */
+.botao:hover {
+    background-color: #4cae4c;
+}
+

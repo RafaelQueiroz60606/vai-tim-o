@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 163, 163);
+    background-image: url("rb_2149848351.png");
+    background-size: cover;
+    
+    
+}
+
+
+
+.header .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    height: 80px;
+    
+   
+}
+
+.nav-logo img {
+    top: 5px;
+    right: 47vw;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.nav-item:first-child {
+    margin-left: 100px;
+}
+.nav-item:nth-child {
+    margin-left: 100px;
+    
+}
+
+.nav-item {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .nav-logo img {
+    max-width: 105px;
+    
+    /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.texto-central {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black ;
+    text-align: center;
+    font-size:50px ;
+    padding-top: 150px;
+   
+}
+
+.informacoes {
+    background: linear-gradient(90deg,#362e1a,#000000);
+    height: 340px;
+    padding-top: 150px ;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.informacoes a {
+    color: aliceblue;
+    text-align: start;
+    font-size: 35px;
+    padding-bottom:50px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.informacoes p {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-top: -115px;
+    
+}
+
+.informacoes img {
+    max-width: 288px;  
+}
+
+.nav-item #historia {
+    margin-left: 60px;
+}
